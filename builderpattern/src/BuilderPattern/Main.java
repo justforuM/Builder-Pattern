@@ -11,8 +11,7 @@ public class Main {
 	        System.out.println("Age: " + user1.getAge());
 	        System.out.println("Phone Number: " + user1.getPhone());
 
-	        System.out.println("------------------------------"
-	        		+ "");
+	        System.out.println("------------------------------");
 
 	        User user2 = new User.Builder("Basel", "Nabil", "Baselnabil@gmail.com")
 	        		    .age(20)
